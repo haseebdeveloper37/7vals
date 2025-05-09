@@ -1,0 +1,25 @@
+/* Admin Styles */
+.sam-newsletter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sam-newsletter-header .search-box {
+    margin: 0;
+}
+
+.wp-list-table th#id {
+    width: 5%;
+}
+
+.wp-list-table th#date {
+    width: 20%;
+}
+
+@media screen and (max-width: 782px) {
+    .wp-list-table th#date {
+        width: auto;
+    }
+}

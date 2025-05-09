@@ -1,0 +1,96 @@
+/* Frontend Styles */
+.sam-newsletter-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sam-newsletter-title {
+    margin-top: 0;
+    color: #1d2327;
+}
+
+.sam-newsletter-description {
+    margin-bottom: 20px;
+    color: #3c434a;
+}
+
+.sam-newsletter-fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.sam-newsletter-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.sam-newsletter-field input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sam-newsletter-field input:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.sam-newsletter-error {
+    color: #d63638;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.sam-newsletter-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.sam-newsletter-submit:hover {
+    background: #135e96;
+}
+
+.sam-newsletter-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sam-newsletter-message.success {
+    background: #edfaef;
+    color: #1d2327;
+    border-left: 4px solid #00a32a;
+}
+
+.sam-newsletter-message.error {
+    background: #fcf0f1;
+    color: #1d2327;
+    border-left: 4px solid #d63638;
+}
+
+.sam-newsletter-form,
+.sam-newsletter-fields,
+.sam-newsletter-field input {
+    box-sizing: border-box;
+}
